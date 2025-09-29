@@ -238,6 +238,8 @@ void define_properties(const py::object& m) {
       .value("OB_PROP_IR_BRIGHTNESS_INT",
              OBPropertyID::OB_PROP_IR_BRIGHTNESS_INT,
              "IR brightness")
+      .value("OB_PROP_COLOR_AE_MAX_EXPOSURE_INT",
+             OBPropertyID::OB_PROP_COLOR_AE_MAX_EXPOSURE_INT)
       .value("OB_STRUCT_BASELINE_CALIBRATION_PARAM",
              OBPropertyID::OB_STRUCT_BASELINE_CALIBRATION_PARAM,
              "Baseline calibration parameters")
